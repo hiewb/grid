@@ -81,24 +81,25 @@ h2 {
 
 /* Now try and style the individual boxes using grid-column  to match the picture at 1200px.*/
 
-.item1{
-  grid-column-start: 2;
+.item2, .item5{
+	grid-column-start: 3;
 }
 
-.item2{
-  grid-column: 3/4;
-}
 .item3{
-  grid-column-start: 2;
+	grid-column-start: 2;
 }
 
-.item4, .item5{
-  grid-column-start:1;
+.item4{
+	grid-column-start: 1;
 }
 
-.item_a, .item_c, .item_e{
-  grid-column: 3/4;
+
+.item_a{
+	grid-column-start: 3;
+	grid-row-start: 3;
+
 }
-.item_b, .item_d{
-  grid-column: 2/3;
+.item_b{
+	grid-column-start: 3;
+
 }
